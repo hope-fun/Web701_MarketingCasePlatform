@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="71ecab64-0733-422e-b876-d2b8f330f224" name="webapp.hoperun.com" url="http://10.20.13.4:63324/Web701_Bootstrap_v3.3.7/">
+        <fileTransfer host="webapp.hoperun.com" port="7022" privateKey="C:\shuma.ppk" rootFolder="/srv/www/game/web701" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="7022" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

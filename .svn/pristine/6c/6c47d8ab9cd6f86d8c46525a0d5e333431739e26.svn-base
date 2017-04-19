@@ -1,0 +1,1144 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-family: "微软雅黑"
+}
+
+body {
+    text-align: center
+}
+
+html, body {
+    height: 100%
+}
+
+.llyq-categ .hot {
+    position: absolute;
+    left: 0;
+    top: 11px;
+    z-index: 5;
+    zoom: 1
+}
+
+.blue {
+    background-color: #01cded
+}
+
+.redtotrans {
+    background-color: transparent;
+    animation: red2trans .5s;
+    -webkit-animation: red2trans .5s;
+    -moz-animation: red2trans .5s;
+    -ms-animation: red2trans .5s
+}
+
+.transtored {
+    background-color: #01cded;
+    animation: trans2red .5s;
+    -webkit-animation: trans2red .5s;
+    -moz-animation: trans2red .5s;
+    -ms-animation: trans2red .5s
+}
+
+@keyframes red2trans {
+    from {
+        background-color: #01cded
+    }
+    to {
+        background-color: transparent
+    }
+}
+
+@-webkit-keyframes red2trans {
+    from {
+        background-color: #01cded
+    }
+    to {
+        background-color: transparent
+    }
+}
+
+@-moz-keyframes red2trans {
+    from {
+        background-color: #01cded
+    }
+    to {
+        background-color: transparent
+    }
+}
+
+@-ms-keyframes red2trans {
+    from {
+        background-color: #01cded
+    }
+    to {
+        background-color: transparent
+    }
+}
+
+@keyframes trans2red {
+    from {
+        background-color: transparent
+    }
+    to {
+        background-color: #01cded
+    }
+}
+
+@-webkit-keyframes trans2red {
+    from {
+        background-color: transparent
+    }
+    to {
+        background-color: #01cded
+    }
+}
+
+@-moz-keyframes trans2red {
+    from {
+        background-color: transparent
+    }
+    to {
+        background-color: #01cded
+    }
+}
+
+@-ms-keyframes trans2red {
+    from {
+        background-color: transparent
+    }
+    to {
+        background-color: #01cded
+    }
+}
+
+.llyq-no-goods {
+    width: 383px;
+    height: 290px;
+    background: url('../images/search-no-goods.png') no-repeat center center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 395px
+}
+
+.llyq-no-goods p {
+    font-size: 22px;
+    margin-left: 44px;
+    color: #0888a3
+}
+
+.llyq-add-progress {
+    width: 383px;
+    height: 290px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.llyq-add-progress p {
+    height: 290px;
+    font-size: 18px;
+    line-height: 290px;
+    color: #dcdddf
+}
+
+.scroll-pic {
+    text-align: left;
+    margin-left: 30px;
+    *margin-left: -930px;
+    padding-top: 205px;
+    width: 300px;
+    height: 394px;
+    overflow: hidden;
+    background: url('../images/scrollbg.png') no-repeat 0 171px
+}
+
+.scroll-pic img {
+    width: 300px;
+    height: 238px;
+    margin-left: 11px
+}
+
+.right-pic {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    width: 212px;
+    height: 318px;
+    background: url('../images/right.png') no-repeat center center
+}
+
+.llyg-tip {
+    height: 145px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.llyg-tip2 {
+    height: 103px;
+    position: absolute
+}
+
+.llyg-tip3 {
+    height: 63px;
+    position: relative
+}
+
+.llyg-item {
+    width: 208px;
+    height: 103px;
+    /*background: url('../images/item-down.png') no-repeat center center;*/
+    font-size: 27px;
+    color: #0888a3;
+    float: left
+}
+
+.llyg-tip3 .llyg-item {
+    width: 208px;
+    height: 103px;
+    font-size: 24px;
+    color: #0888a3;
+    float: left
+}
+
+.llyg-item-first a {
+    color: #dcdddf;
+    text-decoration: none;
+    font-size: 22px;
+    cursor: pointer
+}
+
+.llyg-tip3 .llyg-item span {
+    position: relative;
+    z-index: 8;
+    zoom: 1;
+    left: 7px;
+    top: 32px;
+    font-size: 27px
+}
+
+.simple-detail-inner img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    zoom: 1;
+    width: 189px;
+    height: 305px
+}
+
+.simple-detail-inner .panda-loading {
+    position: absolute;
+    top: 88px;
+    left: 36px;
+    z-index: 3;
+    zoom: 1;
+    width: 117px;
+    height: 121px;
+    animation: loading-rotate 3s infinite linear;
+    -webkit-animation: loading-rotate 3s infinite linear;
+    -moz-animation: loading-rotate 3s infinite linear;
+    -ms-animation: loading-rotate 3s infinite linear
+}
+
+@keyframes loading-rotate {
+    0
+    {
+        transform: rotate(0)
+    }
+    100%
+    {
+        transform: rotate(360deg)
+    }
+}
+@-webkit-keyframes loading-rotate {
+
+0
+{
+    transform: rotate(0)
+}
+100
+%
+{
+    transform: rotate(360deg)
+}
+}
+@-moz-keyframes loading-rotate {
+
+0
+{
+    transform: rotate(0)
+}
+100
+%
+{
+    transform: rotate(360deg)
+}
+}
+@-ms-keyframes loading-rotate {
+
+0
+{
+    transform: rotate(0)
+}
+100
+%
+{
+    transform: rotate(360deg)
+}
+}
+.simple-detail-inner img {
+    cursor: pointer
+}
+
+.llyg-tip2 .llyg-item-other span, .llyg-tip2 .llyg-item-first span {
+    position: absolute;
+    z-index: 8;
+    zoom: 1;
+    left: 52px;
+    font-size: 22px
+}
+
+.show-head2 {
+    margin-top: 10px;
+    display: none
+}
+
+.llyg-item-other span a {
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 22px;
+    color: #0888a3
+}
+
+.yylq-login-container {
+    float: left;
+    width: 100%;
+    overflow: auto
+}
+
+.llyg-tip2 .llyg-panda {
+    width: 146px;
+    height: 93px;
+    background: url('../images/panda.png') no-repeat center bottom;
+    float: left
+}
+
+.llyg-tip3 .llyg-panda {
+    width: 146px;
+    height: 63px;
+    float: left
+}
+
+.llyq-earth-logo {
+    width: 100%
+}
+
+.llyq-container-search {
+    text-align: left
+}
+
+.llyq-container-search label {
+    color: #0888a3;
+    font-size: 16px
+}
+
+.llyq-container-search input {
+    color: #dcdddf;
+    background-color: #0d1723;
+    border: 0
+}
+
+.llyq-search-key {
+    font-size: 16px;
+    color: #0888a3
+    background: url('../img/01/bg_k.png') no-repeat center center
+}
+
+.llyq-search-key .one div a, .llyq-search-key .two div a {
+    margin-left: 12px
+}
+
+.twobg {
+    background: url('../img/01/index_select_item1.png') no-repeat 12px 0
+}
+
+.threebg {
+    background: url('../img/01/index_select_item.png') no-repeat 12px 0
+}
+
+.llyq-search-key .two, .llyq-search-key .one {
+    padding-left: 2%
+}
+
+.llyq-search-key .one, .llyq-search-key .two {
+    width: 100%;
+    height: 20px;
+    line-height: 20px
+}
+
+.llyq-search-key .one div, .llyq-search-key .two div {
+    float: left;
+    font-size: 16px
+}
+
+.llyq-search-key a {
+    cursor: pointer
+}
+
+.llyq-container-detail {
+    margin-top: 32px;
+    height: auto;
+    width: 100%
+}
+
+.llyq-categ {
+    text-align: left;
+    height: 48px;
+    font-size: 16px
+}
+
+.llyq-categ .new, .llyq-categ .hot {
+    border: 1px solid #01cded;
+    width: 45px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    font-size: 12px
+}
+
+.llyg-new-hot {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 76px;
+    height: 44px
+}
+
+.llyq-new-hot1 {
+    position: absolute;
+    top: 0;
+    left: 28px;
+    z-index: 8;
+    zoom: 1;
+    cursor: pointer;
+    width: 47px;
+    height: 34px
+}
+
+.llyq-categ .new {
+    position: absolute;
+    z-index: 2;
+    zoom: 1;
+    left: 28px;
+    top: 0;
+    zoom: 1
+}
+
+.llyq-categ-detail {
+    width: 100%;
+    overflow: auto;
+    min-height: 100px
+}
+
+.llyq-simple-detail {
+    float: left;
+    width: 240px;
+    height: 375px;
+    margin-top: 18px;
+    background: url('../images/detailbg.png') no-repeat center center
+}
+
+.simple-detail-inner {
+    background-color: #047088;
+    width: 203px;
+    height: 333px;
+    margin-left: 19px;
+    *margin-left: 1px;
+    margin-top: 21px
+}
+
+.llyq-simple-detail img {
+    text-align: center
+}
+
+.anli-img-div {
+    width: 189px;
+    height: 305px;
+    position: relative;
+    top: 5px;
+    left: 7px;
+    top: 5px \9;
+    left: 7px \9;
+    *top: 0px;
+    *left: 0px;
+    background: url('../images/detail2.png') no-repeat center center
+}
+
+.name-price {
+    position: relative;
+    left: 0;
+    top: 8px;
+    height: 20px;
+    line-height: 14px
+}
+
+.name-price div {
+    font-size: 12px
+}
+
+.name-price .one {
+    color: #fff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    float: left;
+    text-align: left;
+    margin-left: 5px;
+    width: 142px
+}
+
+.name-price .two {
+    width: 50px;
+    text-align: right;
+    color: #f37b06;
+    font-weight: 600;
+    float: right;
+    margin-right: 5px
+}
+
+.llyg-tail {
+    width: 100%;
+    height: 290px;
+    background: url('../images/tail.png') no-repeat center center
+}
+
+.llyg-header-div {
+    min-width: 1200px;
+    width: 100%;
+    height: 833px
+}
+
+.llyq-body-Div {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    zoom: 1;
+    width: 100%;
+    margin: 0;
+    padding: 0
+}
+
+.goFirstPage {
+    position: fixed;
+    z-index: 10000;
+    zoom: 1;
+    color: #fff;
+    font-size: 14px;
+    top: 35px;
+    right: 233px;
+    font-family: 微软雅黑;
+    cursor: pointer
+}
+
+.llyq-down-arrow {
+    width: 33px;
+    cursor: pointer;
+    height: 15px
+}
+
+.theme-popover-mask {
+    position: fixed;
+    z-index: 9998;
+    zoom: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none
+}
+
+.theme-popover-mask div {
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    opacity: .4;
+    filter: alpha(opacity=40);
+    zoom: 1
+}
+
+.theme-popover-mask1 {
+    position: fixed;
+    z-index: 9998;
+    zoom: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+.theme-popover-mask1 div {
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    opacity: .90;
+    filter: alpha(opacity=90);
+    zoom: 1
+}
+
+@keyframes myfirst {
+    from {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        zoom: 1
+    }
+    to {
+        opacity: 0;
+        filter: alpha(opacity=0);
+        zoom: 1
+    }
+}
+
+@-webkit-keyframes myfirst {
+    from {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        zoom: 1
+    }
+    to {
+        opacity: 0;
+        filter: alpha(opacity=0);
+        zoom: 1
+    }
+}
+
+@-moz-keyframes myfirst {
+    from {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        zoom: 1
+    }
+    to {
+        opacity: 0;
+        filter: alpha(opacity=0);
+        zoom: 1
+    }
+}
+
+@-ms-keyframes myfirst {
+    from {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        zoom: 1
+    }
+    to {
+        opacity: 0;
+        filter: alpha(opacity=0);
+        zoom: 1
+    }
+}
+
+.llyq-banner-list {
+    position: relative;
+    top: 0;
+    left: 0
+}
+
+.login-line {
+    position: absolute;
+    z-index: 10000;
+    zoom: 1;
+    background: url('../images/login_line.png') no-repeat center center;
+    right: -52px;
+    top: 38px;
+    display: none;
+    width: 545px;
+    height: 180px
+}
+
+.login-panel {
+    width: 490px;
+    height: 308px;
+    z-index: 10000;
+    zoom: 1;
+    position: absolute;
+    right: 248px;
+    top: 203px;
+    color: #dcdddf;
+    font-size: 14px;
+    text-align: left;
+    display: none;
+    background: url('../images/login-panel.png') no-repeat center center
+}
+
+.llyg-item-login:hover {
+    cursor: pointer
+}
+
+.login-panel-tip1 {
+    margin-top: 59px;
+    margin-left: 198px
+}
+
+.login-erweima {
+    margin-top: 5px;
+    width: 145px;
+    margin-left: 182px;
+    height: 145px
+}
+
+.login-panel-tip2 {
+    margin-top: 5px;
+    margin-left: 190px
+}
+
+.llyq-search-key {
+    text-align: left
+}
+
+.llyg-item-login {
+    position: absolute;
+    top: 0;
+    left: 1051px;
+    text-align: center;
+    line-height: 91px;
+    font-size: 16px;
+    color: #dcdddf
+}
+
+.llyg-item-login div {
+    width: 78px;
+    height: 91px;
+    background: url("../images/login.png") no-repeat center right
+}
+
+.llyg-item-login div span {
+    font-size: 16px
+}
+
+.llyq-down-arrow {
+    margin-left: auto;
+    margin-right: auto;
+    background: url('../images/down_arrow.png') no-repeat center center;
+    margin-top: 102px
+}
+
+.detail-one {
+    margin-left: 0
+}
+
+.detail-one, .detail-two, .detail-three {
+    margin-right: 13px
+}
+
+.llyq-container-detail {
+    width: 1000px
+}
+
+.llyg-tip1 {
+    /*margin-top: 550px;*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px
+}
+
+.llyq-search-key .two div, .llyq-search-key .one div {
+    padding-top: 2px;
+    width: 89px
+}
+
+.llyq-search-key .one {
+    padding-top: 51px;
+    padding-top: 51px \9;
+    *padding-top: 51px;
+}
+
+.llyq-search-key .two {
+    padding-top: 30px
+}
+
+.llyq-search-key {
+    background: url('../images/s_catebg.png') no-repeat 0 0;
+    width: 1000px;
+    margin-top: 20px;
+    height: 167px
+}
+
+.llyq-container-search input {
+    width: 460px;
+    height: 25px
+}
+
+.llyq-container-search-div {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px
+}
+
+.llyq-container-search {
+    width: 601px;
+    height: 70px;
+    background: url('../images/search.png') no-repeat center left;
+    margin-left: 209px
+}
+
+.llyq-search-group {
+    margin-left: 26px;
+    padding-top: 15px;
+    position: relative;
+    top: 0;
+    left: 0
+}
+
+.llyq-search-group input {
+    outline: 0;
+    background: transparent
+}
+
+.search-button {
+    position: absolute;
+    left: 516px;
+    top: 0;
+    width: 58px;
+    height: 70px;
+    cursor: pointer
+}
+
+.llyg-tip {
+    margin-top: 302px;
+    width: 1000px
+}
+
+.llyg-tip2 {
+    top: 0;
+    left: 0;
+    width: 1000px
+}
+
+.llyg-tip3 {
+    width: 1000px
+}
+
+.llyg-item-second,.llyg-item-third,.llyg-item-fourth{
+    margin-left: 50px
+}
+
+.llyg-item-fourth {
+    margin-right: 0
+}
+
+.llyq-header {
+    width: 100%;
+    height: 650px;
+    background: url('../images/touyuan.png') no-repeat center center
+}
+
+.llyq-earth-circle2 {
+    animation: earth-rotate 4s infinite linear;
+    -webkit-animation: earth-rotate 4s infinite linear;
+    -moz-animation: earth-rotate 4s infinite linear;
+    -ms-animation: earth-rotate 4s infinite linear
+}
+
+.topBtnBg {
+    position: absolute;
+    width: 208px;
+    height: 103px;
+    top: 0px;
+    left: 0;
+    z-index: 5;
+    zoom: 1;
+    background: url('../img/01/B_title.png') no-repeat center center
+}
+
+.topBtnWord{
+    position: relative;
+    width: 100px;
+    height: 29px;
+    top: 50%;
+    left: 50%;
+    /*上右下左*/
+    margin:0px 0px 0px -50px;
+    z-index: 6;
+    zoom: 1;
+}
+
+#topBtnWordOne{
+    background: url('../img/01/T_01.png') no-repeat center center
+}
+
+#topBtnWordTwo{
+    background: url('../img/01/T_02.png') no-repeat center center
+}
+
+#topBtnWordThree{
+    background: url('../img/01/T_03.png') no-repeat center center
+}
+
+#topBtnWordFour{
+    background: url('../img/01/T_04.png') no-repeat center center
+}
+
+.rotate-circle4-bg {
+    position: absolute;
+    width: 146px;
+    height: 147px;
+    top: -62px;
+    left: 0;
+    z-index: 3;
+    zoom: 1;
+    background: url('../images/item-circle1.png') no-repeat center center
+}
+
+.public-rotate-circle1 {
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+.rotate-circle2-bg {
+    position: absolute;
+    width: 146px;
+    height: 147px;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    zoom: 1;
+    background: url('../images/item-circle1.png') no-repeat center center
+}
+
+.rotate-circle5-bg {
+    position: absolute;
+    width: 146px;
+    height: 147px;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    zoom: 1;
+    background: url('../images/item-circle2.png') no-repeat center center
+}
+
+.rotate-circle6-bg {
+    position: absolute;
+    width: 146px;
+    height: 147px;
+    top: -62px;
+    left: 0;
+    z-index: 3;
+    zoom: 1;
+    background: url('../images/item-circle2.png') no-repeat center center
+}
+
+.rotate-circle5-bg, .rotate-circle6-bg {
+    animation: earth-rotate 3.5s infinite linear;
+    -webkit-animation: earth-rotate 3.5s infinite linear;
+    -moz-animation: earth-rotate 3.5s infinite linear;
+    -ms-animation: earth-rotate 3.5s infinite linear
+}
+
+.rotate-circle1-bg, .topBtnBg {
+    animation: earth-rotate 4s infinite linear;
+    -webkit-animation: earth-rotate 4s infinite linear;
+    -moz-animation: earth-rotate 4s infinite linear;
+    -ms-animation: earth-rotate 4s infinite linear
+}
+
+.rotate-circle2-bg, .rotate-circle4-bg {
+    animation: change2 3s infinite linear;
+    -webkit-animation: change2 3s infinite linear;
+    -moz-animation: change2 3s infinite linear;
+    -ms-animation: change2 3s infinite linear
+}
+
+@-moz-keyframes change2 {
+    from {
+        background: red
+    }
+    to {
+        background: yellow
+    }
+}
+
+@-ms-keyframes change2 {
+    from {
+        background: red
+    }
+    to {
+        background: yellow
+    }
+}
+
+@keyframes change2 {
+
+0
+{
+    transform: rotate(0)
+}
+100
+%
+{
+    transform: rotate(-360deg)
+}
+}
+@-webkit-keyframes change2 {
+
+0
+{
+    transform: rotate(0)
+}
+100
+%
+{
+    transform: rotate(-360deg)
+}
+}
+@-moz-keyframes earth-rotate {
+
+0
+{
+    transform: rotate(0)
+}
+100
+%
+{
+    transform: rotate(360deg)
+}
+}
+@-ms-keyframes earth-rotate {
+
+0
+{
+    transform: rotate(0)
+}
+100
+%
+{
+    transform: rotate(360deg)
+}
+}
+@keyframes earth-rotate {
+
+0
+{
+    transform: rotate(0)
+}
+100
+%
+{
+    transform: rotate(360deg)
+}
+}
+@-webkit-keyframes earth-rotate {
+
+0
+{
+    transform: rotate(0)
+}
+100
+%
+{
+    transform: rotate(360deg)
+}
+}
+.llyq-earth {
+    width: 100%;
+    height: 650px;
+    background: url('../images/earth.png') no-repeat center center
+}
+
+.llyq-earth-circle1 {
+    width: 100%;
+    height: 650px;
+    background: url('../images/s_circle1.gif') no-repeat center center
+}
+
+#scroll-Div {
+    position: relative;
+    left: 0;
+    top: -650px;
+    zoom: 1;
+    width: 623px;
+    height: 650px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.llyq-earth-circle2 {
+    position: absolute;
+    z-index: 5;
+    zoom: 1;
+    top: 0;
+    left: 0;
+    width: 623px;
+    height: 650px;
+    background: url('../images/s_circle20.png') no-repeat center center
+}
+
+.llyq-earth-circle20 {
+    position: absolute;
+    z-index: 6;
+    zoom: 1;
+    top: 0;
+    left: 0;
+    width: 623px;
+    height: 650px;
+    background: url('../images/s_circle21.png') no-repeat center center;
+    animation: earth-rotate 4.5s infinite linear;
+    -webkit-animation: earth-rotate 4.5s infinite linear;
+    -moz-animation: earth-rotate 4.5s infinite linear;
+    -ms-animation: earth-rotate 4.5s infinite linear
+}
+
+.llyq-earth-circle21 {
+    position: absolute;
+    z-index: 7;
+    zoom: 1;
+    top: 0;
+    left: 0;
+    width: 623px;
+    height: 650px;
+    background: url('../images/s_circle2.png') no-repeat center center;
+    animation: change2 5s infinite linear;
+    -webkit-animation: change2 5s infinite linear;
+    -moz-animation: change2 5s infinite linear;
+    -ms-animation: change2 5s infinite linear
+}
+
+.llyq-earth-circle222 {
+    width: 100%;
+    height: 650px;
+    background: url('../images/s_circle222.png') no-repeat center center
+}
+
+.llyq-earth-logo {
+    position: relative;
+    left: 0;
+    top: -1300px;
+    z-index: 8;
+    zoom: 1;
+    zoom: 1;
+    background: url('../images/logo.png') no-repeat center 306px
+}
+
+.scroll-content {
+    width: 300px;
+    height: 258px;
+    overflow: hidden
+}
+
+.scroll-real-content {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: auto
+}
+
+.scroll-simple-div {
+    widht: 300px;
+    height: 258px
+}

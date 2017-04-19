@@ -1,0 +1,33 @@
+.onePage{
+    /*height: 750px;*/
+    /*width:1000px;*/
+    width: 100%;
+}
+.onePage-bg{
+    /*width:1000px;*/
+    height: 4081px;
+    width: 100%;
+    position: absolute;
+    background-position: center center;
+    background-size: cover;
+}
+#onepagebg{
+    background-image: url("../img/01/BG.png");
+}
+
+.btnTop{
+    /*width:38px;height:18px;line-height:18px;border:0;margin:4px 0 0 10px;*/
+    width:208px;
+    height:103px;
+    border:0;
+    outline:none;/*去掉蓝色的框.*/
+    background:url(../img/01/B_title.png);
+    background-size:100% 100%;
+    font-size: 20px;
+    color:white;
+    font-family: 微软雅黑;/*字体指定*/
+    text-shadow:#000 1px 0 0,#000 0 1px 0,#000 -1px 0 0,#000 0 -1px 0;/*文字描边*/
+    -webkit-text-shadow:#000 1px 0 0,#000 0 1px 0,#000 -1px 0 0,#000 0 -1px 0;
+    -moz-text-shadow:#000 1px 0 0,#000 0 1px 0,#000 -1px 0 0,#000 0 -1px 0;
+    filter: Glow(color=#000, strength=1);
+}

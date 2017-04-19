@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <!--不使用缓存-->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=8">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-control" content="no-cache">
+    <meta http-equiv="Cache" content="no-cache">
+    <title>餐谋长-H5定制开发与H5页面案例共享平台，让朋友圈广告更精彩!</title>
+    <!--  <title >H5市场</title>-->
+    <!--[if lte IE 8]>
+    <meta http-equiv="X-UA-Compatible" content="IE=8"/>
+    <![endif]-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="x-page" content="Index">
+    <meta name="keywords" content="H5定制，餐谋长，H5页面，朋友圈广告，H5案例，微信开发，微信营销">
+    <meta name="description"
+          content="寻找与众不同营销方式，上万个不重样的微信邀请函样式？上未来应用官网发现社交媒体传播创意吧。专注H5定制开发，共享海量H5页面、H5创意模板，微信朋友圈广告案例。无论是微信游戏开发与运营、品牌推广活动、公司KPI都不是问题，让您的企业微信营销如虎添翼。">
+    <link href="css/index.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/logo.ico"/>
+</head>
+<body id="bodyId">
+<div class="mainContainer">
+    <div id="pageHead" style="height: auto">
+        <!--头部-->
+        <div class="topBtnGroup">
+            <div class="topBtnBg" id="topBtn01">
+                <div class="topBtnWord" id="topBtnWordOne"></div>
+            </div>
+            <div class="topBtnBg" id="topBtn02">
+                <div class="topBtnWord" id="topBtnWordTwo"></div>
+            </div>
+            <div class="topBtnBg" id="topBtn03">
+                <div class="topBtnWord" id="topBtnWordThree"></div>
+            </div>
+
+            <div class="topBtnBg" id="topBtn04">
+                <div class="topBtnWord" id="topBtnWordFour"></div>
+            </div>
+
+        </div>
+        <!-- 内容区域-->
+        <div class="topTitleBg">
+            <div class="topTitleInfo">
+                <div class="one">
+                    <div>场景：</div>
+                    <div class="all twobg give-two"><a style="color:#ffffff;margin-left:24px;"
+                                                       class="secene_select">全部</a></div>
+                    <div><a>活动运营</a></div>
+                    <div><a>微信吸粉</a></div>
+                    <div><a>品牌宣传</a></div>
+                    <div><a>总结报告</a></div>
+                    <div class="give-two"><a>其他</a></div>
+                </div>
+                <div class="two">
+                    <div>应用：</div>
+                    <div class="all twobg give-two"><a style="color:#ffffff;margin-left: 24px;"
+                                                       class="secene_select">全部</a></div>
+                    <div><a>简单图文</a></div>
+                    <div><a>礼物/贺卡/邀请函</a></div>
+                    <div><a>问答/评分/测试</a></div>
+                    <div class="give-two"><a>游戏</a></div>
+                    <div><a>抽奖活动</a></div>
+                    <div class="give-two"><a>其他</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="pageMain">
+        <div id="caseListGroup">
+            <div id="case01" class="caseItem caseLeft">
+                <img class="caseImage" src="img/01/111.jpg" alt="必胜客披萨">
+            </div>
+            <div id="case02" class="caseItem caseRight">
+                <img class="caseImage" src="img/01/222.jpg" alt="味千拉面">
+            </div>
+            <div id="case03" class="caseItem caseLeft">
+                <img class="caseImage" src="img/01/333.jpg" alt="翻卡牌抽奖">
+            </div>
+            <div id="case04" class="caseItem caseRight">
+                <img class="caseImage" src="img/01/444.jpg" alt="大转盘抽奖">
+            </div>
+            <div id="case05" class="caseItem caseLeft">
+                <img class="caseImage" src="img/01/555.jpg" alt="抓表情">
+            </div>
+            <div id="case06" class="caseItem caseRight">
+                <img class="caseImage" src="img/01/666.jpg" alt="清明上河图">
+            </div>
+            <div id="case07" class="caseItem caseLeft">
+                <img class="caseImage" src="img/01/777.jpg" alt="开工红包">
+            </div>
+            <div id="case08" class="caseItem caseRight">
+                <img class="caseImage" src="img/01/888.jpg" alt="店内有妖">
+            </div>
+            <div id="case09" class="caseItem caseLeft">
+                <img class="caseImage" src="img/01/999.jpg" alt="红色鼓励桶">
+            </div>
+        </div>
+    </div>
+    <div id="pageFooter">
+
+    </div>
+
+</div>
+</body>
+</html>

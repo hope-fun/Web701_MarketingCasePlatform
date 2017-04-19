@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!--不使用缓存-->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=8">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-control" content="no-cache">
+    <meta http-equiv="Cache" content="no-cache">
+
+    <title>餐谋长</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script type="text/javascript" src="js/index.js"></script>
+    <!--<style>-->
+    <!--.row {-->
+    <!--margin-bottom: 20px;-->
+    <!--}-->
+
+    <!--.row .row {-->
+    <!--margin-top: 10px;-->
+    <!--margin-bottom: 0;-->
+    <!--}-->
+
+    <!--[class*="col-"] {-->
+    <!--padding-top: 15px;-->
+    <!--padding-bottom: 15px;-->
+    <!--background-color: #eee;-->
+    <!--background-color: rgba(86, 61, 124, .15);-->
+    <!--border: 1px solid #ddd;-->
+    <!--border: 1px solid rgba(86, 61, 124, .2);-->
+    <!--}-->
+    <!--</style>-->
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="onePage-bg" id="onepagebg"></div>
+    <div class="row col-md-2" style="margin-top: 555px"></div>
+    <div class="row col-md-8" style="margin-top: 555px">
+        <div class="title-module col-md-3">
+            <input id="btnTop01" type="button" class="btnTop" onclick="onTopBtn(this)" value="H5案例">
+        </div>
+        <div class="title-module col-md-3">
+            <input id="btnTop02" type="submit" class="btnTop" onclick="onTopBtn(this)" value="H5推广">
+        </div>
+        <div class="title-module col-md-3">
+            <button id="btnTop03" type="button" class="btnTop" onclick="onTopBtn(this)">效果监测</button>
+        </div>
+        <div class="title-module col-md-3">
+            <button id="btnTop04" type="button" class="btnTop" onclick="onTopBtn(this)">案例解读</button>
+        </div>
+    </div>
+    <div class="row col-md-2" style="margin-top: 555px"></div>
+
+    <!--<div class = "container"-->
+</div>
+<!--<form role="form">-->
+<!--<input type="text" class="form-control">-->
+<!--<textarea class="form-control" rows="5"></textarea>-->
+<!--<div class="checkbox">-->
+<!--<label><input type="checkbox" value="">吃苹果</label>-->
+<!--</div>-->
+<!--</form>-->
+
+<!--<form role="form" class="form-inline">-->
+<!--&lt;!&ndash;<div class="form-group">&ndash;&gt;-->
+<!--&lt;!&ndash;<label>用户名</label>&ndash;&gt;-->
+<!--&lt;!&ndash;<input type="date" class="form-control" placeholder="Enter email">&ndash;&gt;-->
+<!--&lt;!&ndash;</div>&ndash;&gt;-->
+<!--<div class="form-group">-->
+<!--<label>email</label>-->
+<!--<input type="email" class="form-control" placeholder="Enter email">-->
+<!--</div>-->
+<!--<div class="from-group">-->
+<!--<label class="sr-only">password</label>-->
+<!--<input type="password" class="form-control" placeholder="password">-->
+<!--</div>-->
+<!--<div class="form-group">-->
+<!--<label class="sr-only">选择文件</label>-->
+<!--<input type="file">-->
+<!--<p class="help-block">选择你的需要的文件</p>-->
+<!--</div>-->
+<!--</form>-->
+
+<!--<form class="form-horizontal" role="form">-->
+<!--<div class="form-group">-->
+<!--<label class="col-sm-2 control-label">Email</label>-->
+<!--<div class="col-sm-10">-->
+<!--<input type="email" class="form-control" placeholder="Email">-->
+<!--</div>-->
+<!--</div>-->
+<!--<div class="from-group">-->
+<!--<label class="col-sm-2 control-label">password</label>-->
+<!--<div class="col-sm-10">-->
+<!--<input type="password" class="form-control" placeholder="password">-->
+<!--</div>-->
+<!--</div>-->
+
+<!--<div class="form-group">-->
+<!--<div class="col-sm-offset-2 col-sm-10">-->
+<!--<div class="checkbox">-->
+<!--<label>-->
+<!--<input type="checkbox">记住密码-->
+<!--</label>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</form>-->
+<div class="container">
+
+
+    <!--&lt;!&ndash;code&ndash;&gt;-->
+    <!--For example <code>&lt;section&gt;</code> as inline;-->
+    <!--我希望现在能键入<kbd>cmd</kbd>命令-->
+    <!--<pre>-->
+    <!--Sample text here...;-->
+    <!--</pre>-->
+    <!--<var>x</var>=<var>y</var>+<var>z</var>-->
+    <!--<samp>hello world</samp>-->
+
+
+    <!--<div class="row">-->
+    <!--<div class="col-md-1">.col-md-1</div>-->
+    <!--<div class="col-md-1">.col-md-1</div>-->
+    <!--<div class="col-md-1">.col-md-1</div>-->
+    <!--<div class="col-md-1">.col-md-1</div>-->
+    <!--<div class="col-md-1">.col-md-1</div>-->
+    <!--<div class="col-md-1">.col-md-1</div>-->
+    <!--<div class="col-md-1">.col-md-1</div>-->
+    <!--<div class="col-md-1">.col-md-1</div>-->
+    <!--<div class="col-md-1">.col-md-1</div>-->
+    <!--<div class="col-md-1">.col-md-1</div>-->
+    <!--<div class="col-md-1">.col-md-1</div>-->
+    <!--<div class="col-md-1">.col-md-1</div>-->
+    <!--</div>-->
+    <!--<div class="row">-->
+    <!--<div class="col-md-8">.col-md-8</div>-->
+    <!--<div class="col-md-4">.col-md-4</div>-->
+    <!--</div>-->
+    <!--<div class="row">-->
+    <!--<div class="col-md-4">.col-md-4</div>-->
+    <!--<div class="col-md-4">.col-md-4</div>-->
+    <!--<div class="col-md-4">.col-md-4</div>-->
+    <!--</div>-->
+    <!--<div class="row">-->
+    <!--<div class="col-md-6">.col-md-6</div>-->
+    <!--<div class="col-md-6">.col-md-6</div>-->
+    <!--</div>-->
+
+
+    <!--<div class="row">-->
+    <!--<div class="col-md-9">col-md-9</div>-->
+    <!--<div class="col-md-3">col-md-3</div>-->
+    <!--</div>-->
+
+    <!--<div class="row">-->
+    <!--<div class="col-md-1">col-md-1</div>-->
+    <!--<div class="col-md-1">col-md-1</div>-->
+    <!--<div class="col-md-1">col-md-1</div>-->
+    <!--<div class="col-md-1">col-md-1</div>-->
+    <!--<div class="col-md-1">col-md-1</div>-->
+    <!--<div class="col-md-1">col-md-1</div>-->
+    <!--<div class="col-md-1">col-md-1</div>-->
+    <!--<div class="col-md-1">col-md-1</div>-->
+    <!--<div class="col-md-1">col-md-1</div>-->
+    <!--<div class="col-md-1">col-md-1</div>-->
+    <!--<div class="col-md-1">col-md-1</div>-->
+    <!--<div class="col-md-1">col-md-1</div>-->
+    <!--<div class="col-md-1">col-md-1</div>-->
+    <!--<div class="col-md-1">col-md-1</div>-->
+    <!--<div class="col-md-1">col-md-1</div>-->
+    <!--<div class="col-md-1">col-md-1</div>-->
+    <!--<div class="col-md-1">col-md-1</div>-->
+    <!--</div>-->
+
+</div>
+</body>
+</html>

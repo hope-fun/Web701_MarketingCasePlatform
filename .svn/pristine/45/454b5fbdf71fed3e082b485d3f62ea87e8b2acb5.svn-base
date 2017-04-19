@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <!--不使用缓存-->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=8">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-control" content="no-cache">
+    <meta http-equiv="Cache" content="no-cache">
+    <title>餐谋长-H5定制开发与H5页面案例共享平台，让朋友圈广告更精彩!</title>
+    <!--  <title >H5市场</title>-->
+    <!--[if lte IE 8]>
+    <meta http-equiv="X-UA-Compatible" content="IE=8"/>
+    <![endif]-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <!--百度站长验证-->
+    <meta name="baidu-site-verification" content="wNaqxf8PJU"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="x-page" content="Index">
+    <meta name="keywords" content="H5定制，未来应用，H5页面，朋友圈广告，H5案例，微信开发，微信营销">
+    <meta name="description"
+          content="寻找与众不同营销方式，上万个不重样的微信邀请函样式？上未来应用官网发现社交媒体传播创意吧。专注H5定制开发，共享海量H5页面、H5创意模板，微信朋友圈广告案例。无论是微信游戏开发与运营、品牌推广活动、公司KPI都不是问题，北京流量源泉科技有限公司让您的企业微信营销如虎添翼。">
+    <link href="css/index.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/logo.ico"/>
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "/hm.baidu.com/hm.js?41cabf3e31ab76e4e9d9c2523f7cd138";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    <!-- <script type="text/javascript" src="js/respond.min.js"></script>-->
+    <!--[if lte IE 9]>
+    <style type="text/css">
+        .llyg-item-login {
+            display: none;
+        }
+    </style>
+    <![endif]-->
+</head>
+<body id="top">
+
+<!--[if !IE]><!-->
+
+<!--<![endif]-->
+
+<div class="llyq-body-Div">
+    <div id="llyq-body" style="height: auto">
+        <!--头部-->
+        <div class="llyg-tip"><!-- 头部父物体 -->
+            <div class="llyq-banner-list"><!--头部4个按钮列表-->
+                <div class="llyg-tip2">
+                    <div class="llyg-item llyg-item-first">
+                        <div class="topBtnBg"></div>
+                        <div class="topBtnWord" id="topBtnWordOne"></div>
+                    </div>
+                    <div class="llyg-item llyg-item-other llyg-item-second">
+                        <div class="public-rotate-circle1">
+                            <div class="topBtnBg"></div>
+                            <div class="topBtnWord" id="topBtnWordTwo"></div>
+                        </div>
+                    </div>
+                    <div class="llyg-item llyg-item-other llyg-item-third">
+                        <div class="public-rotate-circle1">
+                            <div class="topBtnBg"></div>
+                            <div class="topBtnWord" id="topBtnWordThree"></div>
+                        </div>
+                    </div>
+                    <div class="llyg-item llyg-item-other llyg-item-fourth">
+                        <div class="public-rotate-circle1">
+                            <div class="topBtnBg"></div>
+                            <div class="topBtnWord" id="topBtnWordFour"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 内容区域-->
+        <div class="llyq-container" id="llyg-container">
+            <!--搜索关键字-->
+            <div class="llyg-tip1">
+                <div class="llyq-search-key">
+                    <div class="one">
+                        <div>场景：</div>
+                        <div class="all twobg give-two">
+                            <a style="color:#ffffff;margin-left:24px;" class="secene_select">全部</a>
+                        </div>
+                        <div><a>活动运营</a></div>
+                        <div><a>微信吸粉</a></div>
+                        <div><a>品牌宣传</a></div>
+                        <div><a>总结报告</a></div>
+                        <div class="give-two"><a>其他</a></div>
+                    </div>
+
+                    <div class="two">
+                        <div>应用：</div>
+                        <div class="all twobg give-two">
+                            <a style="color:#ffffff;margin-left: 24px;" class="secene_select">全部</a>
+                        </div>
+                        <div><a>简单图文</a></div>
+                        <div><a>礼物/贺卡/邀请函</a></div>
+                        <div><a>问答/评分/测试</a></div>
+                        <div class="give-two"><a>游戏</a></div>
+                        <div><a>抽奖活动</a></div>
+                        <div class="give-two"><a>其他</a></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 关键字内容-->
+            <div class="llyg-tip1">
+                <div class="llyq-container-detail">
+
+<!--                     <div class="llyq-categ">
+                        <div class="llyg-new-hot">
+                            <div class="llyq-new-hot1" style="background-color: rgba(0, 0, 0, 0)"></div>
+                            <div class="new" style="text-align: center">HOT</div>
+                            <div class="hot selected blue" style="text-align: center">NEW</div>
+                        </div>
+                    </div> -->
+
+
+
+
+
+    </div>
+
+
+</body>
+
+
+
+</html>

@@ -1,0 +1,7 @@
+body{
+    background-image: url("../img/01/BG.png");
+}
+
+#topGroupId {
+    background: url("../img/01/bg_k.png");
+}
